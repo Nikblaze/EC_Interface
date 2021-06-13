@@ -3,7 +3,7 @@
 - This is recieving end interface of ella healthbot.
 
 #Login page
-![](login.png)
+
 
 ## Tech Stack
 
