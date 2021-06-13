@@ -1,5 +1,5 @@
 {
-  "name": "EC interface",
+  "name": "EC_interface",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
