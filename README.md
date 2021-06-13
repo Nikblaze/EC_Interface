@@ -1,6 +1,6 @@
 
 # Ella community web app
-- This is recieving end interface of ella healthbot.
+- This is recieving end interface of ella healthbot. Ella's community can be accessed here https://ec-interface.herokuapp.com/
 
 ## Login page
 ![](login.png)
