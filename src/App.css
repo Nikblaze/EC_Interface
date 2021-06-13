@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #e8e5f4;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.app__container {
+  display: flex;
+  width: 85vw;
+  height: 90vh;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  z-index: 10;
+}
+
+.start_login{
+  top:0px;
+}
+.cir{
+  height:500px;
+  width:700px;
+  background-color:#efaa86;
+  border-radius: 700px/500px;
+  transform: rotate(15deg);
+  position: absolute;
+  margin-left:-300px;
+  margin-top: -100px;
+  z-index:0;
+}
+
+.cird{
+  position: absolute;
+  height:500px;
+  width:700px;
+  background-color:#3dc5b7;
+  border-radius: 700px/500px;
+  margin-left:900px;
+  margin-top: 850px;
+  overflow: hidden;
+  z-index:0;
+}

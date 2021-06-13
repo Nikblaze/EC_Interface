@@ -1,0 +1,127 @@
+.chatroom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #4e426d;
+  border-radius: 0 20px 20px 0;
+
+}
+
+.chatroom__header {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  background-color: #5c4f81;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+border-radius:30px;
+color:white;
+}
+
+.chatroom__headerinfoleft {
+  flex: 1;
+  padding-left: 15px;
+  color:white;
+}
+
+.chatroom__headerinfoleft > p {
+  color: rgb(185, 185, 185);
+}
+
+.chatroom__header__inforight {
+  display: flex;
+  align-items: center;
+  min-width: 80px;
+}
+
+.chatroom__body {
+  flex: 1;
+  background-color: #5c4f81;
+  padding: 25px;
+  overflow-y: scroll;
+  background-position: center;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.chatroom__message {
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #569ee0;
+  border-radius: 15px;
+  width: fit-content;
+  margin-top: 25px;
+  color:white;
+}
+
+.chatroom__username {
+  position: absolute;
+  top: -15px;
+  font-size: xx-small;
+  color: rgb(185, 185, 185);
+}
+
+.chatroom__messagetimestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+  color:white ;
+}
+
+.chatroom__messagerecierver {
+  margin-left: auto;
+  background-color: #ffaa59;
+
+}
+
+/* last div */
+.chatroom__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.chatroom__footer > form {
+  flex: 1;
+  display: flex;
+
+}
+
+.chatroom__footer > form > input {
+  flex: 1;
+  border-radius: 50px;
+  padding: 15px;
+  border: none;
+  width: 90%;
+  margin-top: 5px;
+  /* color:transparent; */
+}
+
+.chatroom__footer > form > button {
+  border: none;
+  background-color: #3dc5b7;
+  color: white;
+  padding: 9px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.chatroom__footer > form > input:focus {
+  outline-width: 0;
+  color:white;
+
+}
+.chatroom__footer > form > button:focus {
+  outline-width: 0;
+}
+
+.chatroom__footer > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
+}
