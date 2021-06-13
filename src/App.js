@@ -19,9 +19,9 @@ function App() {
       {!user ? (
         <div>
         <div className="start_login">
-        <Login style={{zIndex:10}}/>
+        <Login />
         </div>
-        <Robot style={{zIndex:0}}/>
+        <Robot />
         </div>
       ) : (
         <div className="app__container">

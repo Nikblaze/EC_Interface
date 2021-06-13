@@ -5,6 +5,7 @@
 .app {
   background-color: #e8e5f4;
   height: 100vh;
+  width: 100vw;
   display: grid;
   place-items: center;
 }
