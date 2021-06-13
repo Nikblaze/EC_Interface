@@ -22,6 +22,6 @@
 
 ```
 $ git clone https://github.com/Nikblaze/EC_interface.git
-$ cd whatsapp-web-app
+$ cd EC_interface
 $ npm install && npm start
 ```
