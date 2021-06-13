@@ -34,7 +34,17 @@ function ChatRoom() {
         );
     }
   }, [roomid]);
+  const SendMessage = (event) => {
+     event.preventDefault();
 
+     database.collection("rooms").doc(roomid).collection("messages").add({
+       message: input,
+       name: user.displayName,
+       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+     });
+     setinput("");
+   };
+   
   return (
     <div className="chatroom">
       <div className="chatroom__header">
@@ -72,7 +82,7 @@ function ChatRoom() {
             onChange={(event) => setinput(event.target.value)}
             placeholder="Type your message here"
           />
-          <button type="submit">
+          <button onClick={SendMessage} type="submit">
             <SendIcon />
           </button>
         </form>
