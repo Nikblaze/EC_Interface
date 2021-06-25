@@ -44,7 +44,7 @@ function ChatRoom() {
      });
      setinput("");
    };
-   
+
   return (
     <div className="chatroom">
       <div className="chatroom__header">
@@ -74,20 +74,7 @@ function ChatRoom() {
           </p>
         ))}
       </div>
-      <div className="chatroom__footer">
-        <SentimentVerySatisfiedIcon />
-        <form>
-          <input
-            value={input}
-            onChange={(event) => setinput(event.target.value)}
-            placeholder="Type your message here"
-          />
-          <button onClick={SendMessage} type="submit">
-            <SendIcon />
-          </button>
-        </form>
-        <MicIcon />
-      </div>
+      
     </div>
   );
 }

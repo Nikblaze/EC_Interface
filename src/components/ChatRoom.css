@@ -44,7 +44,7 @@ color:white;
   background-position: center;
   border-radius: 20px;
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .chatroom__message {
@@ -100,7 +100,6 @@ color:white;
   border: none;
   width: 90%;
   margin-top: 5px;
-  /* color:transparent; */
 }
 
 .chatroom__footer > form > button {
