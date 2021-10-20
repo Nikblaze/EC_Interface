@@ -32,21 +32,21 @@
 
 }
 .cir{
-  height:500px;
-  width:700px;
+  height:53vh;
+  width:36vw;
   background-color:#efaa86;
   border-radius: 700px/500px;
   transform: rotate(15deg);
   position: absolute;
-  margin-left:-300px;
-  margin-top: -100px;
+  margin-left:-80vw;
+  margin-top:-50vh;
   z-index:0;
 }
 
 .cird{
   position: absolute;
-  height:500px;
-  width:700px;
+  height:50vh;
+  width:36vw;
   background-color:#3dc5b7;
   border-radius: 700px/500px;
   margin-left:900px;
